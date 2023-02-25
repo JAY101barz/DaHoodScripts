@@ -156,6 +156,8 @@ local function NTLEW_fake_script() -- TextButton_3.LocalScript
 	
 	
 	button.MouseButton1Click:Connect(function()
+		local pepe = true
+		if pepe then
 		local a = game
 		local b = a.Workspace
 		local c = a.Lighting
@@ -194,9 +196,10 @@ local function NTLEW_fake_script() -- TextButton_3.LocalScript
 			then
 				g.Enabled = false
 			end
-		end
+			end
+			end
 		sethiddenproperty(game.Lighting, "Technology", "Compatibility")
-	end)
+	end)	
 end
 coroutine.wrap(NTLEW_fake_script)()
 local function PAYNQ_fake_script() -- TextButton_4.LocalScript 
